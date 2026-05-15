@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Luis Garcia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="brand">Luis Garcia</a>
+            <nav aria-label="Primary navigation">
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container hero-content">
+                <div>
+                    <p class="eyebrow">Responsive Portfolio</p>
+                    <h1>Hi, I’m Luis — a code enthusiast and current chef.</h1>
+                    <p class="hero-copy">I'm currently learning web development and building responsive websites. This is a practice project to showcase my skills.</p>
+                    <a class="button button-primary" href="#projects">View Projects</a>
+                </div>
+                <aside class="hero-card">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Responsive Flexbox Layouts</li>
+                        <li>Semantic HTML5</li>
+                        <li>CSS Variables &amp; Custom Themes</li>
+                        <li>GitHub Pages Deployments</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm currently a chef and have interest in web development. I enjoy learning new technologies and applying them to create engaging user experiences. I'm passionate about creating intuitive and visually appealing websites.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Projects</h2>
+                    <p>Recent work with responsive design, accessible markup, and modern visual style.</p>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Photography Portfolio</h3>
+                        <p>Responsive landing page with a clean grid layout and interactive hover states.</p>
+                        <p class="tag">#Flexbox #Gallery</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Startup Landing</h3>
+                        <p>A mobile-first marketing page with custom hero styling, testimonials, and CTA buttons.</p>
+                        <p class="tag">#Responsive #Branding</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Contact Dashboard</h3>
+                        <p>Styled contact section with a modern form layout and accessible semantics.</p>
+                        <p class="tag">#Forms #UX</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container contact-grid">
+                <div>
+                    <h2>Contact</h2>
+                    <p>Want to work together or learn more? Send a message and I’ll get back to you soon.</p>
+                    <ul class="contact-info">
+                        <li><strong>Email:</strong> vowlowls@gmail.com</li>
+                        <li><strong>Location:</strong> Remote / Worldwide</li>
+                    </ul>
+                </div>
+                <form class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me about your project"></textarea>
+
+                    <button type="submit" class="button button-secondary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 Luis Garcia. Built with HTML &amp; CSS.</p>
+            <p>Deployed on GitHub Pages.</p>
+        </div>
+    </footer>
+</body>
+</html>
